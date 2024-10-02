@@ -1,0 +1,81 @@
+body {
+    width:90vw;
+    font-size: larger;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    margin: 5%;
+    
+}
+
+p {
+    display: inline-flex;
+    align-items: center;
+}
+
+span {
+    flex: 1;
+}
+
+img {
+    margin: 2%;
+    max-width: 400px;
+}
+
+a {
+    margin: 2px;
+}
+
+h1 {
+    text-align: center;
+    padding: 8%;
+    color: azure;
+    background-image: url("930px-Sofonisba_Anguissola,_Selvportræt_ved_staffeliet,_1556,_Museum_Castle_in_Łańcut.jpg");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 50% 50%;
+    background-size: cover;
+    margin-bottom: 5%;
+}
+
+ul {
+    line-height: 1.5em;
+    height: auto;
+    margin-bottom: 5%;
+
+}
+
+ol {
+    line-height: 1.5em;
+    height: auto;
+}
+
+.for-sources {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20vh;
+}
+
+.return-link {
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 20vh;
+
+}
+
+.fun-fact {
+    display: flex;
+    justify-content: space-evenly;
+    border: dotted 4px #a9b7d4;
+    margin-bottom: 5%;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+   
+}
