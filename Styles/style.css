@@ -42,7 +42,6 @@ h1 {
 ul {
     line-height: 1.5em;
     height: auto;
-    margin-bottom: 5%;
 
 }
 
@@ -51,18 +50,11 @@ ol {
     height: auto;
 }
 
-.for-sources {
-    display: inline-flex;
-    flex-direction: row;
+.source-list {
+    display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 20vh;
-}
-
-.return-link {
-    display: inline-flex;
-    justify-content: center;
-    margin-top: 20vh;
+    padding: 2%;
 
 }
 
@@ -70,12 +62,11 @@ ol {
     display: flex;
     justify-content: space-evenly;
     border: dotted 4px #a9b7d4;
-    margin-bottom: 5%;
-
+    margin:15vh;
 }
 
-footer {
+.return-to-top {
     display: flex;
     justify-content: center;
-   
+    margin-top: 10vh;
 }
